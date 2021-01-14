@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "reexec_nimg_reexec_nimg_litt_review_schema",
+    "@id": "reexec_nimg_litt_review_schema",
     "prefLabel": "reexec nimg litt review",
-    "description": "reexec nimg reexec nimg litt review",
+    "description": "reexec nimg litt review",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "ui": {

@@ -17,12 +17,12 @@
         ],
         "shuffle": false,
         "order": [
-            "../../activities/reexec_nimg_reexec_nimg_litt_review/reexec_nimg_reexec_nimg_litt_review_schema"
+            "../../activities/reexec_nimg_litt_review/reexec_nimg_litt_review_schema"
         ],
         "addProperties": [
             {
-                "variableName": "reexec_nimg_reexec_nimg_litt_review",
-                "isAbout": "../../activities/reexec_nimg_reexec_nimg_litt_review/reexec_nimg_reexec_nimg_litt_review_schema",
+                "variableName": "reexec_nimg_litt_review",
+                "isAbout": "../../activities/reexec_nimg_litt_review/reexec_nimg_litt_review_schema",
                 "prefLabel": {
                     "en": "reexec nimg litt review"
                 },
