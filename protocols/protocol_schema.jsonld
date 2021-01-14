@@ -1,0 +1,32 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Protocol",
+    "@id": "protocol_schema.jsonld",
+    "prefLabel": "protocol_schema",
+    "description": "protocol_schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "landingPage": {
+        "@id": "../README-en.md",
+        "@language": "en"
+    },
+    "ui": {
+        "allow": [
+            "reproschema:AutoAdvance",
+            "reproschema:AllowExport"
+        ],
+        "shuffle": false,
+        "order": [
+            "../../activities/activity_1/actvity_1_schema.jsonld"
+        ],
+        "addProperties": [
+            {
+                "variableName": "activity_1",
+                "isAbout": "../../activities/activity_1/actvity_1_schema.jsonld",
+                "prefLabel": {
+                    "en": "activity 1"
+                }
+            }
+        ]
+    }
+}

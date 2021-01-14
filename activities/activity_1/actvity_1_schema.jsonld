@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "actvity_1_schema.jsonld",
+    "prefLabel": "actvity_1_schema",
+    "description": "actvity_1_schema",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "preamble": " ",
+    "ui": {
+        "order": [
+            "items/item_1.jsonld"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "variableName": "item_1",
+                "isAbout": "items/item_1.jsonld",
+                "isVis": true
+            }
+        ]
+    }
+}
