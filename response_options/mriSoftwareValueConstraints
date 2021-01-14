@@ -5,7 +5,7 @@
     "valueType": "xsd:integer",
     "minValue": 0,
     "maxValue": 6,
-    "multipleChoice": false,
+    "multipleChoice": true,
     "choices": [
         {
             "name": {
