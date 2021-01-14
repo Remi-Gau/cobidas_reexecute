@@ -4,7 +4,7 @@ name: CI
 
 env:
   # commit shasum for the reproschema we want to get
-  CHECKSUM: a45efccdb7d3d7f90a6b54e6f0ba2a4137e40661
+  CHECKSUM: 17908c4a509cff2fa1196bd3f75e8634040fd0c4
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -52,12 +52,7 @@ jobs:
     - name: Test with pyshacl
       run: |
         reproschema -l DEBUG validate activities
-    # IMPORTANT
-    # Modify the following line so that to replace
-    # protocols/FOLDER_NAME/SCHEMA_FILE_NAME
-    # with the actual path to your protocol schema 
-    # Once you are done, remove these comment lines.
-        reproschema -l DEBUG validate protocols/FOLDER_NAME/SCHEMA_FILE_NAME
+        reproschema -l DEBUG validate protocols/reexec_nimg/reexec_nimg_schema
 
     # Runs a set of commands using the runners shell
     - name: Run a multi-line script
