@@ -1,1 +1,0 @@
-# Landing page for the template protocol
